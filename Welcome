@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fintechbro</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="blur-background"></div>
+    <div id="main-box">
+        <h1>Welcome to Fintechbro</h1>
+        <button id="register-btn">Register</button>
+    </div>
+    <div id="register-box" class="hidden">
+        <h2>Register</h2>
+        <form id="register-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" required><br>
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required><br>
+            <label for="email">Email ID:</label>
+            <input type="email" id="email" name="email" required><br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
